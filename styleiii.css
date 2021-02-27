@@ -12,37 +12,42 @@ header{
 }
 h1, h2{
     color: #4CAF50;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 50px;
     font-weight: bold;
     margin-top: 15px;
 }
 p{
-    font-size: 20px;
-    line-height: 60px;
+    font-size: 16px;
+    line-height: 50px;
 }
 .menuBar a{
     list-style: none;
     display: inline-block;
     background-color: #555555;
     color:  #ffffff; 
-    font-size: 20px;
-    margin-top: 25px;
-    padding: 7px 55px;
+    font-size: 16px;
+    margin-top: 13px;
+    padding: 6px 0px;
     margin-right: 2px;
     margin-left: 5px;
+    text-decoration: none;
+    text-align: center;
+    width: 170px;
 }
 .menuBar a:nth-child(3){
     background-color: #4CAF50;
     color: #ffffff;
+    
 }
 .menuBar a:hover{
+    text-decoration: none;
     background-color: rgb(165, 168, 170);
     color: #ffffff;
 }
 .article p{
-    line-height: 30px;
-    padding-top: 18px;
+    line-height: 26px;
+    padding-top: 8px;
 }
 a{
     color: #000000;
@@ -56,20 +61,24 @@ a:hover{
     text-decoration: underline;
 }
 .noStyle{
-    font-size: 30px;
+    font-size: 23px;
 }
 .sideBar{
     background-color: #f1f1f1;
     border: 1px solid #d4d4d4;
     padding-left: 10px;
     margin-top: 15px;
+    height: 130px;
 }
 .sideBar h2{
-    font-size: 23px;
+    font-size: 18px;
+}
+.sideBar p{
+    line-height: 25px;
 }
 footer p{
-    font-size: 14px;
+    font-size: 10px;
     text-align: center;
-    line-height: 20px;
+    line-height: 14px;
     padding: 10px;
 }

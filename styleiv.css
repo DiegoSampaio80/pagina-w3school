@@ -8,22 +8,35 @@ body{
     font-family: 'Courier New';
     color: #84c754;
     font-size: 20px;
-    margin: 25px 30px;
+    margin: 20px 20px;
     padding: 10px;
+}
+header{
+  
+}
+h1{
+    font-size: 33px;
+}
+header p{
+    font-size: 16px;
 }
 main{
     display: flex;
 }
 ul{
-    margin: 43px 30px;  
+    margin: 33px 30px;  
+   /*    border: 2px solid orange; */
 }
 
 li{
-   padding: 5px;  
+   padding: 5px;
+   font-size: 16px;  
 }
 .menuBar li a{
     color:#84c754;
     text-decoration: none;
+    font-size: 16px;
+
 }
 .colorWhite{
     font-weight: bold;
@@ -36,12 +49,13 @@ li{
     color: white;
 }
 .article h2{
-    margin: 30px 0px 30px 0px;
+    margin: 20px 0px 15px 0px;
     padding-bottom: 0px;
-    font-size: 40px;
+    font-size: 34px;
 }
 .article p{
-    line-height: 30px;
+    line-height: 25px;
+    font-size: 16px;
 }
 .article a{
     color: white;
@@ -51,40 +65,55 @@ li{
     color:#84c754;
  
 }
-.noStyle{
-    font-size: 29px !important;
+.noStyle h2{
+    font-size: 24px !important;
     font-weight: bold !important;
-    margin-top: 10px;
+    margin-top: 25px;
+    ;
+}
+.noStyle p{
+    margin-top:23px;
+    line-height: 25px;
+    font-size: 16px;
+
+}
+.noStyle a{
+    color: #ffffff;
+}
+.noStyle a:hover{
+    color: #ffffff;
+    color:#84c754;
 }
 .sideBar{
     display: inline;
     position: absolute;
-    width: 410px;
-    height: 190px;
-    left: 1135px;
-    top: 120px;
-    border: 2px solid white;
+    width: 310px;
+    height: 130px;
+    left: 910px;
+    top: 70px;
+    border: 1px solid white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px 15px;
     color: white;
     font-size: 15px;
-    text-align: justify;
+ /*    text-align: justify; */
 }
 .sideBar h2{
-    font-size: 19px;
-    padding: 10px 0px 30px 0px;
+    font-size: 14px;
+    padding: 10px 0px 20px 0px;
 }
 .sideBar p{
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 20px;
 }
 footer{
-    margin: 40px 0px 40px 0px;
+    margin: 30px 0px 0px 0px;
     border-radius: 5px;
     border:2px solid white;
-    padding: 5px;
-    font-size: 13px;
+    padding: 10px 0px;
+    font-size: 11px;
     color: white;
-    line-height: 20px;
-    text-indent: 15px;
-    text-align: justify;
+    line-height: 15px;
+ /*    text-indent: 15px; */
+    text-align: center;
 }
